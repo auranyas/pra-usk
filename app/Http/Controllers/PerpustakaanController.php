@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Identitas;
 use Illuminate\Http\Request;
 
-class IdentitasController extends Controller
+class PerpustakaanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +13,7 @@ class IdentitasController extends Controller
      */
     public function index()
     {
-        return view('admin.identitas');
+        return view('admin.dataperpus');
     }
 
     /**
@@ -41,10 +40,10 @@ class IdentitasController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Identitas  $identitas
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Identitas $identitas)
+    public function show($id)
     {
         //
     }
@@ -52,10 +51,10 @@ class IdentitasController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Identitas  $identitas
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Identitas $identitas)
+    public function edit($id)
     {
         //
     }
@@ -64,10 +63,10 @@ class IdentitasController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Identitas  $identitas
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Identitas $identitas)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -75,10 +74,10 @@ class IdentitasController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Identitas  $identitas
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Identitas $identitas)
+    public function destroy($id)
     {
         //
     }

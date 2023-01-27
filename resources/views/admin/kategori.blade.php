@@ -102,7 +102,7 @@
         </div>
     </nav>
     <div class="page-heading m-0">
-        <h3>Data Anggota</h3>
+        <h3>Data Kategori Buku</h3>
     </div>
 
     <section class="section">
@@ -110,10 +110,10 @@
             <div class="card-body">
                 <div class="row">
                     <div class="card-header">
-                        Data Anggota
+                        Data Kategori Buku
                         <button type="button" class="btn btn-outline-primary block" data-bs-toggle="modal"
                             data-bs-target="#default">
-                            Tambah Anggota
+                            Tambah Kategori Buku
                         </button>
                     </div>
                     <div class="modal fade text-left" id="default" tabindex="-1" role="dialog"
@@ -204,28 +204,15 @@
                 <table class="table table-striped" id="table1">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>City</th>
+                            <th>Kode</th>
+                            <th>Nama</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Graiden</td>
-                            <td>vehicula.aliquet@semconsequat.co.uk</td>
-                            <td>076 4820 8838</td>
-                            <td>Offenburg</td>
-                            <td>
-                                <span class="badge bg-success">Active</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Dale</td>
-                            <td>fringilla.euismod.enim@quam.ca</td>
-                            <td>0500 527693</td>
-                            <td>New Quay</td>
+                            <td>5475472</td>
+                            <td>Athanasia</td>
                             <td>
                                 <span class="badge bg-success">Active</span>
                             </td>

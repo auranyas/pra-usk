@@ -45,7 +45,7 @@
 
             <li
                 class="sidebar-item active ">
-                <a href="index.html" class='sidebar-link'>
+                <a href="{{ route('home') }}" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
                 </a>
@@ -59,7 +59,7 @@
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="component-alert.html">Alert</a>
+                        <a href="{{ route('admin.dataadmin') }}">Data Administrator</a>
                     </li>
                 </ul>
             </li>
@@ -72,7 +72,13 @@
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="extra-component-avatar.html">Avatar</a>
+                        <a href="{{ route('admin.penerbit') }}">Penerbit</a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="{{ route('admin.buku') }}">Data Buku</a>
+                    </li>
+                    <li class="submenu-item ">
+                        <a href="{{ route('admin.kategori') }}">Kategori Buku</a>
                     </li>
                 </ul>
             </li>
@@ -80,24 +86,12 @@
             <li
                 class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
-                    <i class="bi bi-grid-1x2-fill"></i>
+                    <i class="bi bi-collection-fill"></i>
                     <span>Laporan Perpustakaan</span>
                 </a>
                 <ul class="submenu ">
                     <li class="submenu-item ">
-                        <a href="layout-default.html">Default Layout</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-vertical-1-column.html">1 Column</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-vertical-navbar.html">Vertical Navbar</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-rtl.html">RTL Layout</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-horizontal.html">Horizontal Menu</a>
+                        <a href="{{ route('admin.dataperpus') }}">Data Perpustakaan</a>
                     </li>
                 </ul>
             </li>
@@ -124,9 +118,9 @@
 
             <li
                 class="sidebar-item  ">
-                <a href="form-layout.html" class='sidebar-link'>
+                <a href="{{ route('admin.identitas') }}" class='sidebar-link'>
                     <i class="bi bi-file-earmark-medical-fill"></i>
-                    <span>Keluar</span>
+                    <span>Identitas Aplikasi</span>
                 </a>
             </li>
 

@@ -102,7 +102,7 @@
         </div>
     </nav>
     <div class="page-heading m-0">
-        <h3>Data Anggota</h3>
+        <h3>Data Buku</h3>
     </div>
 
     <section class="section">
@@ -110,10 +110,10 @@
             <div class="card-body">
                 <div class="row">
                     <div class="card-header">
-                        Data Anggota
+                        Data Buku
                         <button type="button" class="btn btn-outline-primary block" data-bs-toggle="modal"
                             data-bs-target="#default">
-                            Tambah Anggota
+                            Tambah Buku
                         </button>
                     </div>
                     <div class="modal fade text-left" id="default" tabindex="-1" role="dialog"
@@ -204,28 +204,27 @@
                 <table class="table table-striped" id="table1">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>City</th>
+                            <th>Judul</th>
+                            <th>Kategori</th>
+                            <th>Penerbit</th>
+                            <th>Pengarang</th>
+                            <th>Tahun Terbit</th>
+                            <th>ISBN</th>
+                            <th>Jumlah Buku Baik</th>
+                            <th>Jumlah Buku Buruk</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Graiden</td>
-                            <td>vehicula.aliquet@semconsequat.co.uk</td>
-                            <td>076 4820 8838</td>
-                            <td>Offenburg</td>
-                            <td>
-                                <span class="badge bg-success">Active</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Dale</td>
-                            <td>fringilla.euismod.enim@quam.ca</td>
-                            <td>0500 527693</td>
-                            <td>New Quay</td>
+                            <td>Aksi</td>
+                            <td>Spoon</td>
+                            <td>Spoon</td>
+                            <td>2021</td>
+                            <td>69568</td>
+                            <td>2</td>
+                            <td>2</td>
                             <td>
                                 <span class="badge bg-success">Active</span>
                             </td>

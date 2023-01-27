@@ -18,11 +18,28 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'email',
+        'kode',
+        'nis',
+        'fullname',
         'password',
+        'username',
+        'kelas',
+        'alamat',
+        'verif',
+        'role',
+        'join',
+        'terakhir',
     ];
 
+    public function peminjamans()
+    {
+        return $this->hasMany(Peminjaman::class);
+    }
+
+    public function pesans()
+    {
+        return $this->hasMany(Pesan::class);
+    }
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -41,4 +58,6 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
 }

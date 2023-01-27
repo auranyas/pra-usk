@@ -14,7 +14,14 @@ class BukuController extends Controller
      */
     public function index()
     {
-        //
+
+        return view('admin.buku');
+    }
+
+    public function dataadmin()
+    {
+
+        return view('admin.dataadmin');
     }
 
     /**

@@ -24,7 +24,7 @@ class FirstSeeder extends Seeder
             'kelas' => 'rpl',
             'alamat' => 'jl bakti mulya',
             'verif' => 'verified',
-            'role' => 'user',
+            'role' => 'admin',
             'join_date' => '2023-01-06',
         ]);
 

@@ -102,7 +102,7 @@
         </div>
     </nav>
     <div class="page-heading m-0">
-        <h3>Data Anggota</h3>
+        <h3>Data Penerbit</h3>
     </div>
 
     <section class="section">
@@ -110,10 +110,10 @@
             <div class="card-body">
                 <div class="row">
                     <div class="card-header">
-                        Data Anggota
+                        Data Penerbit
                         <button type="button" class="btn btn-outline-primary block" data-bs-toggle="modal"
                             data-bs-target="#default">
-                            Tambah Anggota
+                            Tambah Penerbit
                         </button>
                     </div>
                     <div class="modal fade text-left" id="default" tabindex="-1" role="dialog"

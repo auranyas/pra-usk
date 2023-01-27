@@ -81,4 +81,11 @@ class User extends Controller
     {
         //
     }
+
+    public function user()
+    {
+        $users = User::all();
+
+        return view('home');
+    }
 }
